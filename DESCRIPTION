@@ -11,12 +11,12 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
 Suggests: 
     covr,
-    DT,
-    htmltools,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Imports: 
     rlang,
     magrittr,
     dplyr,
-    palmerpenguins
+    palmerpenguins,
+    DT,
+    htmltools
